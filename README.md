@@ -2,7 +2,7 @@
 
 ## API для статистики по погоде
 
-## Для запуска Api необходимо:
+### Для запуска Api необходимо:
 
 1. Скачать проект
 
@@ -22,12 +22,21 @@
   rails s
   ```
   ```
-  rails jobs:workoff
+  rails jobs:work
   ```
 
 ### Документация создана с помощью библиотеки Swagger и хранится на странице:  ```'/documentation'```
 
-### Основные библиотеки для работы Rails 6, Grape, Delayed::Job, Rufus, RSpec, VCR, Swagger, PG, Puma
+### Основные библиотеки для работы:
+1. Rails 6
+2. Grape
+3. Delayed::Job
+3. Rufus
+5. RSpec
+6. VCR
+7. Swagger,
+8. PG
+9. Puma
 
 Как источник данных использовался сервис https://yandex.ru/dev/weather/
 
